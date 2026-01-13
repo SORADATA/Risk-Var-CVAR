@@ -1,10 +1,11 @@
-# src/data_loader.py
+
 import yfinance as yf
 import numpy as np
 import pandas as pd
 
 class DataLoader:
     def __init__(self, tickers, start_date, end_date):
+        """ On initialise les modules"""
         self.tickers = tickers
         self.start = start_date
         self.end = end_date
